@@ -4,9 +4,13 @@
 * Description:
 * Pin configuration
 * This file was automatically generated and should not be modified.
+* Tools Package 2.1.0.1266
+* 20721B2
+* personalities 1.0.0.31
+* udd 1.2.0.128
 *
 ********************************************************************************
-* Copyright 2017-2019 Cypress Semiconductor Corporation
+* Copyright 2020 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -43,7 +47,7 @@
     .gpio = (wiced_bt_gpio_numbers_t*)&platform_gpio_pins[PLATFORM_GPIO_11].gpio_pin, \
     .config = GPIO_OUTPUT_ENABLE | GPIO_PULL_UP, \
     .default_state = GPIO_PIN_OUTPUT_HIGH, \
-}
+ }
 #define LED1_config \
 {\
     .gpio = (wiced_bt_gpio_numbers_t*)&platform_gpio_pins[PLATFORM_GPIO_12].gpio_pin, \
