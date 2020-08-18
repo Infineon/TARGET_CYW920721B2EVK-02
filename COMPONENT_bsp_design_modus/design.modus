@@ -2,7 +2,7 @@
 <Design version="12" xmlns="http://cypress.com/xsd/cydesignfile_v3">
     <ToolInfo version="2.1.0.1266"/>
     <Devices>
-        <Device mpn="CYW20721B2KWB9G">
+        <Device mpn="LBCA1KU1WA">
             <BlockConfig>
                 <Block location="adc[0]">
                     <Personality template="20x19_adc" version="1.0">
@@ -23,6 +23,7 @@
                 </Block>
                 <Block location="ioss[0].pin[0]">
                     <Alias value="BUTTON_USER"/>
+                    <Alias value="USER_BUTTON1"/>
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="BUTTON"/>
                         <Param id="Index" value="1"/>
@@ -35,7 +36,7 @@
                     </Personality>
                 </Block>
                 <Block location="ioss[0].pin[12]">
-                    <Alias value="SPI_MISO"/>
+                    <Alias value="SPI2_MISO"/>
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="PERIPHERAL"/>
                         <Param id="Index" value="0"/>
@@ -47,7 +48,7 @@
                     </Personality>
                 </Block>
                 <Block location="ioss[0].pin[13]">
-                    <Alias value="SPI_SCLK"/>
+                    <Alias value="SPI2_SCLK"/>
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="PERIPHERAL"/>
                         <Param id="Index" value="0"/>
@@ -120,7 +121,7 @@
                     </Personality>
                 </Block>
                 <Block location="ioss[0].pin[30]">
-                    <Alias value="SPI_MOSI"/>
+                    <Alias value="SPI2_MOSI"/>
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="PERIPHERAL"/>
                         <Param id="Index" value="0"/>
@@ -144,7 +145,7 @@
                     </Personality>
                 </Block>
                 <Block location="ioss[0].pin[34]">
-                    <Alias value="SPI_nCS"/>
+                    <Alias value="SPI2_nCS"/>
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="PERIPHERAL"/>
                         <Param id="Index" value="0"/>

@@ -7,7 +7,7 @@
 * Tools Package 2.1.0.1266
 * 20721B2
 * personalities 1.0.0.31
-* udd 1.2.0.128
+* udd 1.2.0.370
 *
 ********************************************************************************
 * Copyright 2020 Cypress Semiconductor Corporation
@@ -46,11 +46,13 @@ extern "C" {
 #define WICED_GET_PIN_FOR_BUTTON(idx) (*(platform_button[(idx)].gpio))
 #define WICED_GET_PIN_FOR_IO(idx) (*(platform_gpio[(idx)].gpio))
 #define BUTTON_USER_ENABLED 1U
+#define USER_BUTTON1_ENABLED BUTTON_USER_ENABLED
 #define BUTTON_USER WICED_P00
-#define SPI_MISO_ENABLED 1U
-#define SPI_MISO WICED_P12
-#define SPI_SCLK_ENABLED 1U
-#define SPI_SCLK WICED_P13
+#define USER_BUTTON1 BUTTON_USER
+#define SPI2_MISO_ENABLED 1U
+#define SPI2_MISO WICED_P12
+#define SPI2_SCLK_ENABLED 1U
+#define SPI2_SCLK WICED_P13
 #define BUTTON_VOL_UP_ENABLED 1U
 #define BUTTON_VOL_UP WICED_P14
 #define I2S_WS_ENABLED 1U
@@ -61,12 +63,12 @@ extern "C" {
 #define LED2 WICED_P26
 #define LED1_ENABLED 1U
 #define LED1 WICED_P27
-#define SPI_MOSI_ENABLED 1U
-#define SPI_MOSI WICED_P30
+#define SPI2_MOSI_ENABLED 1U
+#define SPI2_MOSI WICED_P30
 #define PUART_TX_ENABLED 1U
 #define PUART_TX WICED_P32
-#define SPI_nCS_ENABLED 1U
-#define SPI_nCS WICED_P34
+#define SPI2_nCS_ENABLED 1U
+#define SPI2_nCS WICED_P34
 #define CTX_ENABLED 1U
 #define CTX WICED_P35
 #define CRX_ENABLED 1U
