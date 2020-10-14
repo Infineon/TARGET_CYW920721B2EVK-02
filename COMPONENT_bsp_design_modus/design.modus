@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Design version="12" xmlns="http://cypress.com/xsd/cydesignfile_v3">
-    <ToolInfo version="2.1.0.1266"/>
+    <ToolInfo version="2.2.0.2801"/>
     <Devices>
         <Device mpn="LBCA1KU1WA">
             <BlockConfig>
@@ -23,10 +23,9 @@
                 </Block>
                 <Block location="ioss[0].pin[0]">
                     <Alias value="BUTTON_USER"/>
-                    <Alias value="USER_BUTTON1"/>
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="BUTTON"/>
-                        <Param id="Index" value="1"/>
+                        <Param id="Index" value="4"/>
                         <Param id="DefaultState" value="GPIO_PIN_OUTPUT_HIGH"/>
                         <Param id="PressedValue" value="GPIO_PIN_OUTPUT_LOW"/>
                         <Param id="Control" value="GPIO_INPUT_ENABLE"/>
@@ -36,7 +35,7 @@
                     </Personality>
                 </Block>
                 <Block location="ioss[0].pin[12]">
-                    <Alias value="SPI2_MISO"/>
+                    <Alias value="SPI_MISO"/>
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="PERIPHERAL"/>
                         <Param id="Index" value="0"/>
@@ -48,7 +47,7 @@
                     </Personality>
                 </Block>
                 <Block location="ioss[0].pin[13]">
-                    <Alias value="SPI2_SCLK"/>
+                    <Alias value="SPI_CLK"/>
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="PERIPHERAL"/>
                         <Param id="Index" value="0"/>
@@ -121,7 +120,7 @@
                     </Personality>
                 </Block>
                 <Block location="ioss[0].pin[30]">
-                    <Alias value="SPI2_MOSI"/>
+                    <Alias value="SPI_MOSI"/>
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="PERIPHERAL"/>
                         <Param id="Index" value="0"/>
@@ -145,7 +144,7 @@
                     </Personality>
                 </Block>
                 <Block location="ioss[0].pin[34]">
-                    <Alias value="SPI2_nCS"/>
+                    <Alias value="SPI_CS"/>
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="PERIPHERAL"/>
                         <Param id="Index" value="0"/>
@@ -157,7 +156,7 @@
                     </Personality>
                 </Block>
                 <Block location="ioss[0].pin[35]">
-                    <Alias value="CTX"/>
+                    <Alias value="TX_PU"/>
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="PERIPHERAL"/>
                         <Param id="Index" value="0"/>
@@ -169,7 +168,7 @@
                     </Personality>
                 </Block>
                 <Block location="ioss[0].pin[36]">
-                    <Alias value="CRX"/>
+                    <Alias value="RX_PU"/>
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="PERIPHERAL"/>
                         <Param id="Index" value="0"/>
@@ -196,7 +195,7 @@
                     <Alias value="BUTTON_VOL_DN"/>
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="BUTTON"/>
-                        <Param id="Index" value="4"/>
+                        <Param id="Index" value="3"/>
                         <Param id="DefaultState" value="GPIO_PIN_OUTPUT_HIGH"/>
                         <Param id="PressedValue" value="GPIO_PIN_OUTPUT_LOW"/>
                         <Param id="Control" value="GPIO_INPUT_ENABLE"/>
@@ -209,7 +208,7 @@
                     <Alias value="BUTTON_CUSTOM"/>
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="BUTTON"/>
-                        <Param id="Index" value="3"/>
+                        <Param id="Index" value="1"/>
                         <Param id="DefaultState" value="GPIO_PIN_OUTPUT_HIGH"/>
                         <Param id="PressedValue" value="GPIO_PIN_OUTPUT_LOW"/>
                         <Param id="Control" value="GPIO_INPUT_ENABLE"/>
@@ -231,7 +230,7 @@
                     </Personality>
                 </Block>
                 <Block location="ioss[0].pin[7]">
-                    <Alias value="I2S_SCK"/>
+                    <Alias value="I2S_CLK"/>
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="PERIPHERAL"/>
                         <Param id="Index" value="0"/>
