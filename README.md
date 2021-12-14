@@ -2,13 +2,13 @@
 
 ### Overview
 
-The Cypress CYW920721B2EVK-02 Evaluation Kit enables you to evaluate and develop single-chip Bluetooth applications using the CYW20721, an ultra-low-power dual-mode Bluetooth 5.1 wireless MCU device for Audio. The CYW20721 is a stand-alone baseband processor with an integrated 2.4 GHz transceiver supporting Bluetooth LE/BR/EDR. The CYW20721 employs high integration to reduce external components, thereby minimizing the device's footprint and cost. This kit helps evaluate device functionality and develop applications quickly for faster time-to-market.
+The Infineon CYW920721B2EVK-02 Evaluation Kit enables you to evaluate and develop single-chip Bluetooth&#174; applications using the CYW20721, an ultra-low-power dual-mode Bluetooth&#174; 5.1 wireless MCU device for Audio. The CYW20721 is a stand-alone baseband processor with an integrated 2.4 GHz transceiver supporting Bluetooth&#174; LE/BR/EDR. The CYW20721 employs high integration to reduce external components, thereby minimizing the device's footprint and cost. This kit helps evaluate device functionality and develop applications quickly for faster time-to-market.
 
-* CYW20721B2 dual-mode (LE/BR/EDR) Bluetooth 5.1-compliant wireless MCU packaged into a SiP Module with external Low Noise Amplifier and Power Amplifier (eLNA/ePA)
+* CYW20721B2 dual-mode (LE/BR/EDR) Bluetooth&#174; 5.1-compliant wireless MCU packaged into a SiP Module with external Low Noise Amplifier and Power Amplifier (eLNA/ePA)
 * Audio Arduino shield with on-board microphones, audio codec chip, headphone and speaker output
 * On-board sensors - a 9-axis motion sensor (3D digital linear acceleration sensor, 3D digital angular rate sensor, and 3D digital magnetic sensor) and a thermistor
 * User switches and LEDs
-* USB connector for power, programming and USB-UART bridge
+* USB connector for power, programming, and USB-UART bridge
 
 ### Kit Contents
 
